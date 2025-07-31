@@ -1,0 +1,21 @@
+| Port | Protocole | Service | Description                           |   |   |   |   |   |   |
+|------|-----------|---------|---------------------------------------|---|---|---|---|---|---|
+| 21   | TCP       | FTP     | Transfert de fichiers (non sécurisé)  |   |   |   |   |   |   |
+| 22   | TCP       | SSH     | Accès distant sécurisé                |   |   |   |   |   |   |
+| 23   | TCP       | Telnet  | Accès distant non sécurisé            |   |   |   |   |   |   |
+| 25   | TCP       | SMTP    | Envoi d’e-mails                       |   |   |   |   |   |   |
+| 53   | TCP/UDP   | DNS     | Résolution de noms                    |   |   |   |   |   |   |
+| 80   | TCP       | HTTP    | Web non sécurisé                      |   |   |   |   |   |   |
+| 110  | TCP       | POP3    | Récupération d’e-mails                |   |   |   |   |   |   |
+| 111  | TCP/UDP   | RPC     | Remote Procedure Call                 |   |   |   |   |   |   |
+| 135  | TCP       | MS RPC  | Services Windows                      |   |   |   |   |   |   |
+| 137-139 | TCP/UDP | NetBIOS | Partage de fichiers Windows  |   |   |   |   |   |   |
+| 143     | TCP     | IMAP    | Récupération d’e-mails       |   |   |   |   |   |   |
+| 161/162 | UDP     | SNMP    | Supervision réseau           |   |   |   |   |   |   |
+| 389     | TCP/UDP | LDAP    | Annuaire d’entreprise        |   |   |   |   |   |   |
+| 443     | TCP     | HTTPS   | Web sécurisé                 |   |   |   |   |   |   |
+| 445     | TCP     | SMB     | Partage de fichiers Windows  |   |   |   |   |   |   |
+| 465     | TCP     | SMTPS   | SMTP sécurisé                |   |   |   |   |   |   |
+| 514     | UDP     | Syslog  | Logs système                 |   |   |   |   |   |   |
+| 636     | TCP     | LDAPS   | LDAP sécurisé                |   |   |   |   |   |   |
+| 873     | TCP     | Rsync   | Synchronisation de fichiers  |   |   |   |   |   |   |
