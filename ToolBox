@@ -1,0 +1,12 @@
+| Service/Protocol | Client Tools                  | Enumeration Tools                                                           |   |   |   |   |   |   |   |
+|------------------|-------------------------------|-----------------------------------------------------------------------------|---|---|---|---|---|---|---|
+| SMB              | smbclient, smbmap             | enum4linux, enum4linux-ng, crackmapexec, smbclient, nmap (smb-*)            |   |   |   |   |   |   |   |
+| HTTP/HTTPS       | curl, wget, httpie, browsers  | nikto, dirb, dirbuster, gobuster, ffuf, whatweb, wappalyzer, nmap (http-*)  |   |   |   |   |   |   |   |
+| FTP              | ftp, lftp, ncftp              | nmap (ftp-*), hydra, medusa                                                 |   |   |   |   |   |   |   |
+| SMTP             | telnet, swaks, smtp-user-enum | nmap (smtp-*), smtp-user-enum                                               |   |   |   |   |   |   |   |
+| DNS              | dig, nslookup, host           | dnsenum, dnsrecon, fierce, nmap (dns-*)                                     |   |   |   |   |   |   |   |
+| SSH              | ssh                           | nmap (ssh-*), hydra, crackmapexec                                           |   |   |   |   |   |   |   |
+| LDAP             | ldapsearch                    | ldapenum, nmap (ldap-*), crackmapexec                                       |   |   |   |   |   |   |   |
+| RDP              | rdesktop, xfreerdp, remmina   | nmap (rdp-*), rdp-sec-check                                                 |   |   |   |   |   |   |   |
+| SNMP             | snmpwalk, snmpget             | onesixtyone, snmp-check, nmap (snmp-*)                                      |   |   |   |   |   |   |   |
+
