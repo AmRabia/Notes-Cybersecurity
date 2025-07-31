@@ -9,4 +9,17 @@
 | LDAP             | ldapsearch                    | ldapenum, nmap (ldap-*), crackmapexec                                       |   |   |   |   |   |   |   |
 | RDP              | rdesktop, xfreerdp, remmina   | nmap (rdp-*), rdp-sec-check                                                 |   |   |   |   |   |   |   |
 | SNMP             | snmpwalk, snmpget             | onesixtyone, snmp-check, nmap (snmp-*)                                      |   |   |   |   |   |   |   |
+| NTP (Network Time Protocol) | ntpdate, chronyc, ntpq | nmap (ntp-* scripts), ntpdc, ntpq                                              |   |   |   |   |   |   |   |
+| NetBIOS                     | nbtscan, nmblookup     | nmap (nbstat script), nbtscan, enum4linux                                      |   |   |   |   |   |   |   |
+| Kerberos                    | kinit, klist, kvno     | nmap (kerberos-* scripts), impacket (GetUserSPNs.py, GetNPUsers.py), kerbrute  |   |   |   |   |   |   |   |
+
+Most used tools:
+enum4linux
+nmap
+impacket
+crakckmapexec
+
+TO DO:
+Add column with OS
+
 
