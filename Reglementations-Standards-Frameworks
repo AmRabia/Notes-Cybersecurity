@@ -1,4 +1,4 @@
-# DIRECTIVES
+# DIRECTIVES (OBLIGATOIRES)
 
 | Nom                       | Description                                                                                                                                   |   |   |   |   |   |   |   |   |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|---|
@@ -9,6 +9,13 @@
 | Règlement UE 2025/37      | Renforce la certification des services de sécurité gérés1.                                                                                    |   |   |   |   |   |   |   |   |
 | eIDAS 2.0                 | Cadre pour l'identité numérique européenne.                                                                                                   |   |   |   |   |   |   |   |   |
 
-# STANDARDS
+# STANDARDS (RECONNUES)
 
-# FRAMEWORKS
+# FRAMEWORKS (CADRES METHODOLOGIQUES)  
+| Framework                          | Objectif                                                         |   |   |   |   |   |   |   |   |
+|------------------------------------|------------------------------------------------------------------|---|---|---|---|---|---|---|---|
+| NIST Cybersecurity Framework (CSF) | Identification, protection, détection, réponse, récupération.    |   |   |   |   |   |   |   |   |
+| MITRE ATT&CK                       | Base de connaissances sur les tactiques et techniques d’attaque. |   |   |   |   |   |   |   |   |
+| CIS Controls                       | Liste priorisée de bonnes pratiques de sécurité.                 |   |   |   |   |   |   |   |   |
+| OWASP Top 10                       | Principales vulnérabilités des applications web.                 |   |   |   |   |   |   |   |   |
+| COBIT                              | Gouvernance des systèmes d'information.                          |   |   |   |   |   |   |   |   |
