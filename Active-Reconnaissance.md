@@ -1,4 +1,4 @@
-# NETWORK SCANNING
+# NETWORK SCANNING TOOLS
 ## nmap
 ### scan options
 | Option        | Description                                       |
