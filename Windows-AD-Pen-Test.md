@@ -31,24 +31,23 @@ Tools: Mimikatz (be careful with IDS/EDS detection to be avoided!)
 And impacket-wmi (supporting hashes authentication) or
 metasploit modules (supporting hashes authentication)
 
-Remote windows system access:
-smbclient: access & interacts with SMB Shares over network
-xfreerdp
-evil-WinRm: remote management of windows machine ( remote command execution, ...)
-net rpc (communicate with windows remote server using RPC protocol From unix-like systems. (Part of SMBA Suite)
+**Remote windows system access tools**  
+smbclient: access & interacts with SMB Shares over network  
+xfreerdp  
+evil-WinRm: remote management of windows machine ( remote command execution, ...)  
+net rpc (communicate with windows remote server using RPC protocol From unix-like systems. (Part of SMBA Suite)  
 
-Tools summary for pentesting Windows system:
-Windows & Samba Enumeration: enum4linux
-Impacket suite, psexec: execute commands on remote system
-SMB Enumeration: (list shares, upload/download files, pass-the-hash, RCE, ...): smbmap
-Crack password: crackmapexec, John the ripper
-Windows tools: net rpc
-BloodyAD
+### Tools summary for pentesting Windows system:
+Windows & Samba Enumeration: enum4linux  
+Impacket suite, psexec: execute commands on remote system  
+SMB Enumeration: (list shares, upload/download files, pass-the-hash, RCE, ...): smbmap  
+Crack password: crackmapexec, John the ripper  
+Windows tools: net rpc  
+BloodyAD  
 
-
-Useful powershell commands:
-hostname
-whoami
-whoami /groups
+### Useful powershell commands:
+hostname  
+whoami  
+whoami /groups  
 
 Youtube tuto: https://www.youtube.com/watch?v=f8jGhLwCa28&t=2795s
