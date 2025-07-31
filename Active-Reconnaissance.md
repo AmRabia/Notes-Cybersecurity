@@ -31,3 +31,16 @@ nmap -p 80 --script http-enum 192.168.1.1
   
 SSL/TLS Analysis:  
 nmap -p 443 --script ssl-cert,ssl-enum-ciphers 192.168.1.1  
+
+SMB Discovery:  
+nmap -sV -Pn -p 445 --script smb-os-discovery 10.10.10.3
+
+## Ping / Hping  
+Ping: 
+- basic networking tool
+- check host reachability using ICMP Protocol
+
+HPing: 
+- advanced pen test tool
+- TCP, UDP, ICP, RAW-IP protocols.
+    hping3 -S -p 80 192.168.1.1 (SYN scan sur port 80)
