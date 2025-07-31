@@ -1,17 +1,16 @@
-# Ports & services enumeration
-## Active reconnaissance 
-### nmap
+# Active reconnaissance 
+## nmap
 Ports scan can show a Kerberos service running => Windows AD System (SMB, ...)
 
-### Users enumeration
+## Users enumeration
 **Tool impacket** (collection of python classes for working with network protocols)
 $ GetNPUsers.py puppy.local -no-pass -usersfile wordlist.txt -dc-ip administrator, guest, krbtgt, domain admins, root, bin, none
 **Tool enum4Linux** to retrieve usernames of SMB System  
   
-## Exploitation (Gaining access): privilege escalation & lateral movement
+# Exploitation (Gaining access): privilege escalation & lateral movement
 Context: I have an victim access, but he is not admin, so I will elevate my privilege to get the credentials of a victim who is admin.
 
-### Credential harvesting
+## Credential harvesting
 └─First thing First: check the shares I have access to
     smbmap -H TARGET-IP -u victim.name -p 'victim.pwd' -d DOMAIN -r / DEV
     smbclient //TARGET-IP/NETLOGON -U 'DOMAIN/victim.name'
